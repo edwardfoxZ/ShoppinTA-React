@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 1px solid #969696;
+}
+.item-input {
+  width: 300px;
+}
+
+li {
+  padding: 5px 0;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 5px 0;
+  border-bottom: 1px solid #969696;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+li {
+  margin: 20px;
+  margin-left: 70px;
+}
+
+li p {
+  text-transform: capitalize;
+}
